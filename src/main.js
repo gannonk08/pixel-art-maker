@@ -6,7 +6,7 @@ $(function() {
     function newCanvas() {
         var pixel;
         var canvas = $('#canvas')
-        for (var i = 0; i < 2223; i++) {
+        for (var i = 0; i < 1539; i++) {
             canvas.append($('<div class="pixel"></div>'));
         }
     }
@@ -29,5 +29,6 @@ $(function() {
         })
     }
     colorSelector();
+
 
 }());

@@ -1,8 +1,12 @@
 #canvas, #pallete {
+    border-color: black;
+    border-width: medium;
+    border-style: solid;
     display: flex;
     flex-wrap: wrap;
 }
 .pixel {
+    /*border-radius: 50%;*/
     height: 20px;
     width: 20px;
     border-color: gray;
