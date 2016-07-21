@@ -1,0 +1,73 @@
+#canvas, #pallete {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pixel {
+    height: 20px;
+    width: 20px;
+    border-color: gray;
+    border-width: thin;
+    border-style: solid;
+    background-color: white;
+}
+#pallete {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 1252px;
+    border-color: white;
+    border-width: thin;
+    border-style: solid;
+}
+#red {
+    margin: 10px 10px 10px 10px;
+    background-color: red;
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+}
+#blue {
+    margin: 10px 10px 10px 10px;
+    background-color: blue;
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+}
+#orange {
+    margin: 10px 10px 10px 10px;
+    background-color: orange;
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+}
+#green {
+    margin: 10px 10px 10px 10px;
+    background-color: green;
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+}
+#yellow {
+    margin: 10px 10px 10px 10px;
+    background-color: yellow;
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+}
+#purple {
+    margin: 10px 10px 10px 10px;
+    background-color: purple;
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+}
+#currentColor {
+    float: right;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+    border-color: black;
+    border-style: solid;
+}
